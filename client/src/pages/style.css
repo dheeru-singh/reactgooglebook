@@ -35,3 +35,14 @@
 .result-section .list-group-item h6{
     font-style: italic;
 }
+@media only screen and (max-width: 600px) {
+    .result-section .list-group-item .col-auto ,
+    .result-section .list-group-item .col{
+     width: 100%;
+    }
+    .result-section .list-group-item img{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+  }
